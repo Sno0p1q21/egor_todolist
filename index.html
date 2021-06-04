@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Егор Селезнёв">
+	<meta name="description" content="Список дел">
+    <meta name="keywords"
+    content="Список дел, ToDoList, task, задачи">
+	<title>ToDoList</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<ul id="nav">
+	<li class="main_title">HOME</li>
+	<li class="main_title">COMPLETED</li>
+	<li class="main_title">SETTINGS</li>
+    </ul><br>
+	<form class="line" action="" method="post">
+		<input id="task" type="text"
+		 placeholder="Task"><br><br><br>
+		 <ul class="line" id="add">
+		 	<li id="green">
+		 		ADD
+		 	</li>
+		 </ul>
+		 <br><br>	 
+		 <p><input type="checkbox" name="Task" class="main_task">
+            <label for="checkbox1">task</label>
+        </p>
+	</form>
+	<img class="img" src="img/empty_star.png" alt="Избранное">
+	<img class="img" src="img/red_cross.png" alt="Удалить">
+</body>
+</html>

@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.main_title:hover {
+	text-decoration: underline;
+}
+#nav {
+	list-style: none;
+	display: block;
+	float: left;
+	margin-left: 0%;
+	text-align: left
+
+}
+#nav li:hover {
+	color: #fff;
+	background: #333;
+	border-radius: 5px;
+	border-color: #333;
+
+}
+#nav li {
+	display: inline;
+	background: #fafafa;
+	border: 1px solid silver;
+	padding: 2px 18px;
+}
+#task {
+	width: 1000px;
+	display: block;
+	float: left;
+	padding: 15px 10px;
+	margin: 10px 20px;
+}
+#add  {
+	list-style: none;
+	display: block;
+	padding: 15px 10px;
+	float: right;
+	width: 23%;
+	border: 1px solid green;
+	margin: -45px -180px 10px -50px;
+	margin-right: -24%;
+	text-align: center;
+}
+p input {
+	margin-left: 20px;
+}
+
+.line {
+	display: inline-block;
+}
+.line #add {
+	color: green;
+}
+.img {
+	width: 26px;
+	margin: 0px 40px;
+}
